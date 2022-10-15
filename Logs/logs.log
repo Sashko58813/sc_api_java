@@ -1,0 +1,224 @@
+2022-05-18 09:47:18.448 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:47:18.471 INFO - When: I provide used partner email
+2022-05-18 09:47:18.472 INFO - Validate partner email
+2022-05-18 09:47:18.472 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:47:20.026 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:47:20.026 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Email is taken."
+}
+2022-05-18 09:47:20.111 INFO - Then: I validate that email is not valid
+2022-05-18 09:47:20.120 INFO - Total number of testcases: 1
+2022-05-18 09:47:20.121 INFO - Number of testcases PASSED: 1
+2022-05-18 09:47:20.121 INFO - Number of testcases FAILED: 0
+2022-05-18 09:47:20.122 INFO - Number of testcases SKIPPED: 0
+2022-05-18 09:48:02.196 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:48:02.220 INFO - When: I provide used partner email
+2022-05-18 09:48:02.220 INFO - Validate partner email
+2022-05-18 09:48:02.220 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:48:03.492 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:48:03.492 INFO - Response:
+{
+  "valid" : true,
+  "message" : "The email address is valid and available."
+}
+2022-05-18 09:48:03.560 INFO - Then: I validate that email is not valid
+2022-05-18 09:48:03.573 INFO - Total number of testcases: 1
+2022-05-18 09:48:03.574 INFO - Number of testcases PASSED: 0
+2022-05-18 09:48:03.574 INFO - Number of testcases FAILED: 1
+2022-05-18 09:48:03.574 INFO - Number of testcases SKIPPED: 0
+2022-05-18 09:48:20.916 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:48:20.944 INFO - When: I provide used partner email
+2022-05-18 09:48:20.944 INFO - Validate partner email
+2022-05-18 09:48:20.944 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:48:22.364 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:48:22.364 INFO - Response:
+{
+  "valid" : true,
+  "message" : "The email address is valid and available."
+}
+2022-05-18 09:48:22.456 INFO - Then: I validate that email is not valid
+2022-05-18 09:48:22.464 INFO - Total number of testcases: 1
+2022-05-18 09:48:22.465 INFO - Number of testcases PASSED: 1
+2022-05-18 09:48:22.465 INFO - Number of testcases FAILED: 0
+2022-05-18 09:48:22.465 INFO - Number of testcases SKIPPED: 0
+2022-05-18 09:52:02.252 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:52:02.283 INFO - When: I provide used partner email
+2022-05-18 09:52:02.283 INFO - Validate partner email
+2022-05-18 09:52:02.284 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:52:03.585 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:52:03.585 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Email is taken."
+}
+2022-05-18 09:52:03.683 INFO - Then: I validate that email is not valid
+2022-05-18 09:52:03.690 INFO - Total number of testcases: 1
+2022-05-18 09:52:03.690 INFO - Number of testcases PASSED: 1
+2022-05-18 09:52:03.690 INFO - Number of testcases FAILED: 0
+2022-05-18 09:52:03.690 INFO - Number of testcases SKIPPED: 0
+2022-05-18 09:52:57.372 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:52:57.396 INFO - When: I provide used partner email
+2022-05-18 09:52:57.396 INFO - Validate partner email
+2022-05-18 09:52:57.397 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:52:58.680 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:52:58.681 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Email is taken."
+}
+2022-05-18 09:52:58.765 INFO - Then: I validate that email is taken.
+2022-05-18 09:52:58.772 INFO - Total number of testcases: 1
+2022-05-18 09:52:58.773 INFO - Number of testcases PASSED: 1
+2022-05-18 09:52:58.773 INFO - Number of testcases FAILED: 0
+2022-05-18 09:52:58.773 INFO - Number of testcases SKIPPED: 0
+2022-05-18 09:53:47.083 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:53:47.102 INFO - When: I provide used partner email
+2022-05-18 09:53:47.102 INFO - Validate partner email
+2022-05-18 09:53:47.103 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:53:48.435 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:53:48.435 INFO - Response:
+{
+  "valid" : true,
+  "message" : "The email address is valid and available."
+}
+2022-05-18 09:53:48.523 INFO - Then: I validate that email is not valid
+2022-05-18 09:53:48.531 INFO - Total number of testcases: 1
+2022-05-18 09:53:48.531 INFO - Number of testcases PASSED: 1
+2022-05-18 09:53:48.531 INFO - Number of testcases FAILED: 0
+2022-05-18 09:53:48.531 INFO - Number of testcases SKIPPED: 0
+2022-05-18 09:54:45.314 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:54:45.337 INFO - When: I provide used partner email
+2022-05-18 09:54:45.337 INFO - Validate partner email
+2022-05-18 09:54:45.337 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:54:46.562 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:54:46.562 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Please enter a valid email address. email=partnerbrokerncj8gasdasdasdjpek40r"
+}
+2022-05-18 09:54:46.658 INFO - Then: I validate that email is invalid
+2022-05-18 09:54:46.673 INFO - Total number of testcases: 1
+2022-05-18 09:54:46.674 INFO - Number of testcases PASSED: 0
+2022-05-18 09:54:46.674 INFO - Number of testcases FAILED: 1
+2022-05-18 09:54:46.675 INFO - Number of testcases SKIPPED: 0
+2022-05-18 09:55:16.436 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 09:55:16.463 INFO - When: I provide used partner email
+2022-05-18 09:55:16.464 INFO - Validate partner email
+2022-05-18 09:55:16.464 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/email/validate
+2022-05-18 09:55:17.778 INFO - Partner email validate successfully returns 200 as expected
+2022-05-18 09:55:17.778 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Please enter a valid email address. email=partnerbrokerncj8gasdasdasdjpek40r"
+}
+2022-05-18 09:55:17.857 INFO - Then: I validate that email is invalid
+2022-05-18 09:55:17.865 INFO - Total number of testcases: 1
+2022-05-18 09:55:17.865 INFO - Number of testcases PASSED: 1
+2022-05-18 09:55:17.865 INFO - Number of testcases FAILED: 0
+2022-05-18 09:55:17.865 INFO - Number of testcases SKIPPED: 0
+2022-05-18 10:02:36.468 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 10:02:36.491 INFO - When: I provide used partner url
+2022-05-18 10:02:36.492 INFO - Validate partner email
+2022-05-18 10:02:36.492 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/url-slug/validate
+2022-05-18 10:02:37.784 ERROR - Partner url validate successfully returns 400 is not expected
+2022-05-18 10:02:37.784 ERROR - Response:
+{
+  "message" : "Something went wrong. Please try again.",
+  "errors" : [ "Required request parameter 'urlSlug' for method parameter type String is not present" ]
+}
+2022-05-18 10:02:37.792 INFO - Total number of testcases: 1
+2022-05-18 10:02:37.792 INFO - Number of testcases PASSED: 0
+2022-05-18 10:02:37.792 INFO - Number of testcases FAILED: 1
+2022-05-18 10:02:37.793 INFO - Number of testcases SKIPPED: 0
+2022-05-18 10:03:21.116 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 10:03:21.140 INFO - When: I provide used partner url
+2022-05-18 10:03:21.140 INFO - Validate partner email
+2022-05-18 10:03:21.140 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/url-slug/validate
+2022-05-18 10:03:22.392 INFO - Partner url validate successfully returns 200 as expected
+2022-05-18 10:03:22.392 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Custom url is taken."
+}
+2022-05-18 10:03:22.487 INFO - Then: I validate that email is invalid
+2022-05-18 10:03:22.502 INFO - Total number of testcases: 1
+2022-05-18 10:03:22.502 INFO - Number of testcases PASSED: 0
+2022-05-18 10:03:22.502 INFO - Number of testcases FAILED: 1
+2022-05-18 10:03:22.503 INFO - Number of testcases SKIPPED: 0
+2022-05-18 10:04:03.119 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 10:04:03.142 INFO - When: I provide used partner url
+2022-05-18 10:04:03.142 INFO - Validate partner email
+2022-05-18 10:04:03.142 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/url-slug/validate
+2022-05-18 10:04:04.749 INFO - Partner url validate successfully returns 200 as expected
+2022-05-18 10:04:04.749 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Custom url is taken."
+}
+2022-05-18 10:04:04.827 INFO - Then: I validate that url is taken
+2022-05-18 10:04:04.834 INFO - Total number of testcases: 1
+2022-05-18 10:04:04.834 INFO - Number of testcases PASSED: 1
+2022-05-18 10:04:04.835 INFO - Number of testcases FAILED: 0
+2022-05-18 10:04:04.835 INFO - Number of testcases SKIPPED: 0
+2022-05-18 10:04:41.871 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 10:04:41.894 INFO - When: I provide used partner url
+2022-05-18 10:04:41.894 INFO - Validate partner email
+2022-05-18 10:04:41.895 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/url-slug/validate
+2022-05-18 10:04:43.167 INFO - Partner url validate successfully returns 200 as expected
+2022-05-18 10:04:43.167 INFO - Response:
+{
+  "valid" : true,
+  "message" : "Please enter a valid custom url address."
+}
+2022-05-18 10:04:43.251 INFO - Then: I validate that url is taken
+2022-05-18 10:04:43.263 INFO - Total number of testcases: 1
+2022-05-18 10:04:43.264 INFO - Number of testcases PASSED: 0
+2022-05-18 10:04:43.264 INFO - Number of testcases FAILED: 1
+2022-05-18 10:04:43.264 INFO - Number of testcases SKIPPED: 0
+2022-05-18 10:06:26.081 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 10:06:26.104 INFO - When: I provide used partner url
+2022-05-18 10:06:26.105 INFO - Validate partner email
+2022-05-18 10:06:26.105 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/url-slug/validate
+2022-05-18 10:06:27.383 INFO - Partner url validate successfully returns 200 as expected
+2022-05-18 10:06:27.384 INFO - Response:
+{
+  "valid" : true,
+  "message" : "Please enter a valid custom url address."
+}
+2022-05-18 10:06:27.458 INFO - Then: I validate that url is available
+2022-05-18 10:06:27.467 INFO - Total number of testcases: 1
+2022-05-18 10:06:27.467 INFO - Number of testcases PASSED: 1
+2022-05-18 10:06:27.468 INFO - Number of testcases FAILED: 0
+2022-05-18 10:06:27.468 INFO - Number of testcases SKIPPED: 0
+2022-05-18 10:17:33.467 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 10:17:33.492 INFO - When: I provide used partner url
+2022-05-18 10:17:33.492 INFO - Validate partner email
+2022-05-18 10:17:33.493 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/url-slug/validate
+2022-05-18 10:17:34.747 INFO - Partner url validate successfully returns 200 as expected
+2022-05-18 10:17:34.747 INFO - Response:
+{
+  "valid" : false,
+  "message" : "Custom url is taken."
+}
+2022-05-18 10:17:34.831 INFO - Then: I validate that url is taken
+2022-05-18 10:17:34.838 INFO - Total number of testcases: 1
+2022-05-18 10:17:34.838 INFO - Number of testcases PASSED: 1
+2022-05-18 10:17:34.838 INFO - Number of testcases FAILED: 0
+2022-05-18 10:17:34.839 INFO - Number of testcases SKIPPED: 0
+2022-05-18 10:17:39.750 INFO - Base url: https://qa-api.sidecarhealth.com
+2022-05-18 10:17:39.773 INFO - When: I provide used partner url
+2022-05-18 10:17:39.773 INFO - Validate partner email
+2022-05-18 10:17:39.774 INFO - Endpoint: https://qa-api.sidecarhealth.com/ptnr/v1/partners/url-slug/validate
+2022-05-18 10:17:41.002 INFO - Partner url validate successfully returns 200 as expected
+2022-05-18 10:17:41.002 INFO - Response:
+{
+  "valid" : true,
+  "message" : "Please enter a valid custom url address."
+}
+2022-05-18 10:17:41.091 INFO - Then: I validate that url is available
+2022-05-18 10:17:41.101 INFO - Total number of testcases: 1
+2022-05-18 10:17:41.102 INFO - Number of testcases PASSED: 1
+2022-05-18 10:17:41.102 INFO - Number of testcases FAILED: 0
+2022-05-18 10:17:41.102 INFO - Number of testcases SKIPPED: 0

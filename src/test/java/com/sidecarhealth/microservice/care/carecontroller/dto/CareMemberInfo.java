@@ -1,0 +1,65 @@
+package com.sidecarhealth.microservice.care.carecontroller.dto;
+
+import lombok.Data;
+
+@Data
+public class CareMemberInfo {
+    private String uuid;
+    private int accountId;
+    private String accountUuid;
+    private String zipCode;
+    private String state;
+    private String city;
+    private boolean prescriptionsCovered;
+    private double reimbursementPercentage;
+    private double medicalAreaFactor;
+    private double rxAreaFactor;
+    private String policyStatus;
+    private String coverageUuid;
+    private String policyUuid;
+    private String policyId;
+    private String policyCoverageStatus;
+    private double fullCoverageThreshold;
+    private double deductible;
+    private double deductiblePaid;
+    private double maxAnnualAllowance;
+    private double maxAnnualAllowanceUsed;
+    private String coverageStartDate;
+    private String coverageEndDate;
+    private String maternityStartDate;
+    private String annualBenefitStartDate;
+    private String annualBenefitEndDate;
+    private boolean maternityCareCovered;
+    private double maternityDeductible;
+    private double maternityDeductiblePaid;
+    private double maternityAnnualAllowance;
+    private double maternityAnnualAllowanceUsed;
+    private int nonPharmacySwipeLimit;
+    private int pharmacySwipeLimit;
+    private int chiropractorLimit;
+    private int chiropractorLimitUsed;
+    private int physicalTherapyLimit;
+    private int physicalTherapyLimitUsed;
+    private int occupationalTherapyLimit;
+    private int occupationalTherapyLimitUsed;
+    private int speechTherapyLimit;
+    private int speechTherapyLimitUsed;
+    private int psychiatricLimit;
+    private int psychiatricLimitUsed;
+    private String serviceLimits;
+    private double sidecarPercentage;
+    private String underwriter;
+    private boolean paidByGroup;
+    private String groupUuid;
+    private double memberReimbursementPercentage;
+    private String timezone;
+    private boolean threeYearRateLock;
+    private String insuranceProduct;
+    private String familyDeductible;
+    private String familyDeductiblePaid;
+    private String parentPolicyUuid;
+    private String parentPolicyId;
+    private String misstatementFound;
+    private String offering;
+    private String ratingArea;
+}
